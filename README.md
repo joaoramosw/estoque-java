@@ -17,18 +17,19 @@ Este projeto é uma **Prova de Conceito (PoC)** desenvolvida com o objetivo de a
 ```
 projetoPooa/
 ├── src/
-│   ├── application/
-│   │   └── Main.java
+│   ├── curvaABC/
+│   │   └──│CurvaABCCalculadora.java
+│   │   └──│CurvaABCPorValor.java
+│   ├── reabastecimento/
+│   │   └──│ReabastecimentoStrategy.java
+│   │   └──│ReabastecimentoPadrao.java
+│   │   └──│ReabastecimentoPorLeadTime.java
 │   └── estoqueDeVendas/
+│       ├── Main.java
 │       ├── Produto.java
 │       ├── Venda.java
 │       ├── ItemVenda.java
 │       ├── Estoque.java
-│       ├── CurvaABCCalculadora.java
-│       ├── CurvaABCPorValor.java
-│       ├── ReabastecimentoStrategy.java
-│       ├── ReabastecimentoPadrao.java
-│       └── ReabastecimentoPorLeadTime.java
 ```
 
 ---
@@ -54,7 +55,7 @@ O próximo passo será a implementação do padrão **Factory**, permitindo que 
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/usuario/estoqueDeVendas_pooa.git
+   git clone https://github.com/joaoramosw/estoqueDeVendas_pooa.git
    ```
 2. Acesse o diretório:
 
